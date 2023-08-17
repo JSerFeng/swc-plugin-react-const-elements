@@ -1,0 +1,23 @@
+[package]
+name = "plugin_react_const_elements"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+swc_core = { version = "0.79.68", features = [
+  "ecma_utils",
+  "ecma_visit",
+  "ecma_ast",
+  "common",
+] }
+testing = "0.33.21"
+rustc-hash = "1.1.0"
+
+[dev-dependencies]
+serde_json = "1.0.105"
+swc_core = { version = "0.79.68", features = [
+  "ecma_transforms",
+  "testing_transform",
+  "testing",
+  "ecma_parser",
+] }
