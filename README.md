@@ -1,3 +1,5 @@
+# Moved to https://github.com/web-infra-dev/swc-plugins/tree/feat/react-const-elements/crates/plugin_react_const_elements
+
 # swc-plugin-react-const-elements
 
 Ported from https://babeljs.io/docs/babel-plugin-transform-react-constant-elements
